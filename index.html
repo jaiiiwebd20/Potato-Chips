@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Chips - Login/Sign up</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            background: url(images/login\ bg.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loginform">
+
+        <div style="width: 190px; height: 190px; margin: auto;" class="logo"></div>
+        <div class="inputs">
+            <label for="">Username :</label>
+            <input id="username" placeholder="Enter Usermame" type="username">
+            <br><br>
+            <label for="">PASSWORD :</label>
+            <input id="password" placeholder="Enter Password" type="password">
+            <br><br>
+
+
+
+            <div class="butn">
+                <button onclick="func()">LOGIN</button>
+            </div>
+            <div class="atags">
+                <div class="f"><span>New to Potato Chips?</span><a href="">Sign Up</a></div>
+                <div class="f2"> <a class="f2" href="">Forget Password</a></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function func() {
+            var email = document.getElementById("username").value;
+            var pass = document.getElementById('password').value;
+            if (email == 'jaiii.webd' && pass == 'jai@90417'){
+                alert("Welcome to potato chips !")
+                window.location.assign("index.html")
+            }
+            else{
+                alert("Incorrect Username or password")
+            }
+        }
+    </script>
+
+</body>
+
+</html>

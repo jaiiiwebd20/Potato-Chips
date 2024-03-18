@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 68px;
+    background: linear-gradient(0deg, transparent, #000000);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    height: 55px;
+    width: 55px;
+    background-image: url(images/logo.png);
+    margin-left: 30px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.tags {
+    margin-top: 6px;
+    margin-left: 10px;
+
+}
+
+.tags a {
+    color: white;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    padding-right: 6px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.tags a:hover {
+    color: #ffee5a;
+}
+
+.tags select:hover {
+    color: #ffee5a;
+}
+
+.tags select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: 0.2ss;
+    cursor: pointer;
+}
+
+.s2 {
+    margin-left: 530px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    outline: none;
+    transition: 0.2s;
+}
+
+.srch i {
+    color: #741217;
+}
+
+.s2 i:hover {
+    color: #ffee5a;
+}
+
+.srch {
+    border: .5px solid white;
+    border-radius: 8px;
+    height: 25px;
+    background-color: white;
+    width: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.app {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    margin: 10px;
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.app:hover {
+    color: #ffee5a;
+}
+
+.app i {
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* Hero */
+.hero {
+    margin-top: 250px;
+    height: 300px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 60px;
+    background-color: #58585860;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero p {
+    color: rgb(231, 229, 229);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.hero h5 {
+    color: white;
+    padding-left: 15px;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero button {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    background-color: white;
+    color: #741217;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #ffee5a;
+}
+
+.main {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.back-video {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.tx {
+    letter-spacing: 2.5px;
+    color: #ffee5a;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+
+.csection {
+    background-color: #1d1d1c;
+    width: 100%;
+    height: 58vh;
+    margin-top: -20px;
+    padding-top: 5px;
+}
+
+.row1 {
+    height: 300px;
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    /* background-color: #741217; */
+    padding: 5px;
+    width: 98%;
+}
+
+.cd2 {
+    /* background-color: #ffee5a; */
+    height: 280px;
+    width: 190px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.img:hover {
+    transform: scale(1.1)
+}
+
+
+.cd2 h1 {
+    color: #ffee5a;
+    padding-top: 247px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.csection2{
+    background-color: #1d1d1c;
+    width: 100%;
+    height: 58vh;
+    margin-top: -20px;
+    padding-top: 5px;
+}
+
+.foot-panel3{
+    background-color: #741217;
+    color: white;
+    border: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flogo{
+    background-image: url(white\ png.png);
+    background-size: cover;
+    height: 30px;
+    width: 130px;
+    margin-left: 10px;
+}
